@@ -1,0 +1,38 @@
+body.login {
+  background-color: white;
+}
+
+body.login div#login h1 {
+  width: 100%;
+}
+
+body.login div#login h1 a {
+  background: url(../images/logo.png) no-repeat center center/auto 100% transparent;
+  height: 150px;
+  margin: 0 auto 30px;
+  outline: none;
+  width: 100%;
+}
+
+body.login div#login #loginform #user_pass,
+body.login div#login #loginform #user_login {
+  color: darkred;
+}
+
+body.login div#login #nav a,
+body.login div#login #backtoblog a {
+  color: black;
+}
+
+body.login div#login #nav a:hover,
+body.login div#login #backtoblog a:hover {
+  color: darkred;
+}
+
+
+body.login div#login #wp-submit {
+  background-color: darkred;
+  background: darkred;
+}
+
+
