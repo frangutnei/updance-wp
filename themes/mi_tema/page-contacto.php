@@ -10,7 +10,5 @@
 		<?php dynamic_sidebar( 'contact-widget' ); ?>
 		<?php }; ?>
 	</div>
+	
 <?php get_footer() ?>
-		<div class="contacto__btn">
-			<button type="button" class="btn contacto__btn-enviar">Enviar</button>
-		</div>

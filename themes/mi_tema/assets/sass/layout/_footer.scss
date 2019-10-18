@@ -1,0 +1,53 @@
+.footer{
+    background-color:  $darkred;
+    padding: 2rem;
+    margin-top: 2rem;
+
+    &__logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: .5rem;
+    }    
+    &__img{
+        height: 7rem;
+        text-align: center;
+            
+    }   
+    &__links{
+        width: 100% !important;
+        text-align: center;
+        width: fit-content;
+    }
+    &__link{
+        color: $white !important;
+        padding: 1rem;        
+        &:hover{
+            text-decoration: none;
+            font-weight: 500;
+        }
+    }
+    &__rrss{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    &__rs{
+        color: $white !important;
+        margin: .3rem;
+    }
+}
+    
+
+@media(min-width: 768px){
+    .footer{
+        &__img{
+            text-align: left;
+        }
+        &__links{
+            text-align: right;
+        }
+        &__rrss{
+            text-align: right;
+        }
+    }
+
+}

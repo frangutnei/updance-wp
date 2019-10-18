@@ -35,7 +35,7 @@ function dl_enqueue_style() {
 	wp_register_style( 'fontawesome', get_theme_file_uri( '/assets/css/fontawesome.css'), null, '5.6.3', 'screen' );
 	wp_register_style( 'main_style', get_theme_file_uri( '/assets/css/style.css'), $deps, $theme_data->get( 'Version' ), 'screen' );
 	wp_register_style( 'my_style', get_theme_file_uri( '/assets/css/mine.css'), $deps, $theme_data->get( 'Version' ), 'screen' );
-
+	wp_register_style( 'google_font', 'https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
 
 	/* Enqueue Styles */
 	if ( $theme_options['slider']['flexslider'] ) {
@@ -52,6 +52,7 @@ function dl_enqueue_style() {
 
 	wp_enqueue_style( 'main_style' );
 	wp_enqueue_style( 'my_style' );
+	wp_enqueue_style( 'google_font' );
 
 }
 

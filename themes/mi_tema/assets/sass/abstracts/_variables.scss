@@ -1,6 +1,21 @@
-$green: #61B94C;
-$white: #ffffff;
+// Colores
+$darkred: #8B0000;
+$black: #000;
+$white: #fff;
+$card: #dee2e6;
+$hover_btn: rgb(109, 3, 3);
 
-$pag_1: #676767;
-$pag_2: #fff;
-$pag_3: #000;
+
+// font-weight
+$light: 300;
+$regular: 400;
+$bold: 700;
+
+@keyframes aparecerApps{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
