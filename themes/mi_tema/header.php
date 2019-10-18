@@ -9,14 +9,9 @@
 </head>
 <body>
 
-	<?php if ( has_nav_menu( 'header-menu' ) ) { ?>
-		<?php wp_nav_menu( array( 
-			'theme_location' => 'header-menu',
-			'container_class' => 'header-menu'
-		) ); ?>
-	<?php } ?>
+	<?php get_template_part('_includes/nav', 'bootstrap4') ?>
 
-	<header class="header">
+	<!-- <header class="header">
 		<nav class="navbar navbar-expand-lg navigation">
 			<a class="navigation__logo" href="inicio"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/logo_solo.png" class="navigation__logo--img" alt=""> UpDance</a>
 			<form class="form-inline my-2 my-lg-0 buscador">
@@ -53,4 +48,4 @@
 				</ul>
 			</div>
 		</nav>
-	</header>
+	</header> -->
