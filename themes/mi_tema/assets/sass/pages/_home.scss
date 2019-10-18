@@ -1,13 +1,32 @@
 .funcionamiento{
-    text-align: center;
     margin-top: 1rem;
     margin-bottom: 2rem;
+
     &__titulo{
-        font-family: 'Lato', sans-serif;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    &__parrafo{        
+        font-size: 20px;
+        margin-bottom: 0.3em;
     }
 }
 .nosotros{
-    text-align: center;
+    // text-align: center;
     margin-top: 1rem;
     margin-bottom: 5rem;
+    &__titulo{        
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    &__parrafo{        
+        font-size: 20px;
+        margin-bottom: 0.3em;
+    }
+
+    &__lista{
+        font-size: 17px;
+    }
 }

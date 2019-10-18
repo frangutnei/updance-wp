@@ -493,18 +493,32 @@ header {
  *
  */
 .funcionamiento {
-  text-align: center;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 .funcionamiento__titulo {
-  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.funcionamiento__parrafo {
+  font-size: 20px;
+  margin-bottom: 0.3em;
 }
 
 .nosotros {
-  text-align: center;
   margin-top: 1rem;
   margin-bottom: 5rem;
+}
+.nosotros__titulo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.nosotros__parrafo {
+  font-size: 20px;
+  margin-bottom: 0.3em;
+}
+.nosotros__lista {
+  font-size: 17px;
 }
 
 .contacto {
@@ -781,4 +795,4 @@ header {
   color: #8B0000;
 }
 
-/*# sourceMappingURL=mine.css.map */
+/*# sourceMappingURL=my_style.css.map */

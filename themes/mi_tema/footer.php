@@ -6,7 +6,7 @@
 					</div>
 					<div class="col-md-9">
 						<div class="footer__links">
-							<a  class="footer__link" href="#">Quienes Somos</a>
+							<!-- <a  class="footer__link" href="#">Quienes Somos</a> -->
 							<a  class="footer__link" href="contacto">Contacto</a>
 						</div>
 						<div class="footer__rrss">
