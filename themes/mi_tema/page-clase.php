@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<h1 class="container contratar__titulo">Contratar Plan</h1>
+<h1 class="container contratar__titulo">Comprar Clase</h1>
 		
 		<!-- <div class="container filtrar">
 			<form class="filtrar__region" action="">
@@ -45,7 +45,7 @@
 			<div class="row">
 				<?php
 					$arg = array(
-						'post_type'		 => 'plan',
+						'post_type'		 => 'clase',
 						'posts_per_page' => -1,
 					);
 				

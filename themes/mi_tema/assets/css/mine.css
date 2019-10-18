@@ -15,7 +15,6 @@ body * {
   font-family: "Lato", sans-serif;
 }
 
-
 /*
  *
  * La mayoría de los proyectos tienen una carpeta vendors/ que contiene
@@ -79,11 +78,6 @@ body * {
 body * {
   font-family: "Lato", sans-serif;
 }
-
-
-
-
-
 
 /*
  *
@@ -199,7 +193,7 @@ body * {
 .navigation__list {
   margin-left: 1rem;
 }
-.navigation__item{  
+.navigation__item {
   list-style: none;
 }
 .navigation__item a {
@@ -415,8 +409,6 @@ header {
 .btn__updance {
   background-color: #8B0000 !important;
   border-color: #8B0000 !important;
-  display: block;
-  margin: 0 auto;
   color: #fff !important;
 }
 
@@ -429,30 +421,6 @@ header {
 }
 
 .img1 {
-  background-image: url(../images/pp.jpg);
-}
-
-.img2 {
-  background-image: url(../images/conny_azua.jpg);
-}
-
-.img3 {
-  background-image: url(../images/valero.png);
-}
-
-.img4 {
-  background-image: url(../images/rd.png);
-  background-size: auto;
-}
-
-.img5 {
-  background-image: url(../images/wolpack.jpg);
-}
-
-.img6 {
-  background-image: url(../images/pulso.png);
-  background-size: auto;
-}.img1 {
   background-image: url(../images/pp.jpg);
 }
 
@@ -540,11 +508,12 @@ header {
 }
 
 .contacto {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .contacto__titulo {
   text-align: center;
   margin-bottom: 2rem;
+  font-weight: 700;
 }
 .contacto__form {
   margin-bottom: 2rem;
@@ -555,7 +524,7 @@ header {
 
 .horario__titulo {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
 }
 
@@ -721,12 +690,13 @@ header {
   }
 }
 .descarga {
-  margin-top: 6rem;
+  margin-top: 3rem;
   height: 20rem;
 }
 .descarga__titulo {
   text-align: center;
   margin-bottom: 4rem;
+  font-weight: 700;
 }
 .descarga__app {
   text-align: center !important;
@@ -737,10 +707,16 @@ header {
   animation: aparecerApps 3s;
 }
 
+@media (min-width: 768px) {
+  .descarga {
+    margin-top: 10rem;
+  }
+}
 .contratar__titulo {
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
   text-align: center;
+  font-weight: 700;
 }
 .contratar__planes {
   margin-top: 2rem;
@@ -779,45 +755,30 @@ header {
 }
 
 .aparecer {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .aparecer__titulo {
   text-align: center;
   margin-bottom: 3rem;
+  font-weight: 700;
 }
 
-.formulario {
-  margin: 3rem;
-}
 .formulario__btn {
   text-align: center;
 }
 
-.noticias {
-  width: 100%;
-}
-.noticias__div {
-  display: flex;
-}
 .noticias__titulo {
   text-align: center;
-  margin-top: 4rem;
+  font-weight: 700;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
 .noticia {
   margin-bottom: 3rem;
 }
-.noticia__img {
-  height: 20rem;
-  width: 100%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
 .noticia__etiquetas {
   color: #8B0000;
 }
 
-
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=mine.css.map */

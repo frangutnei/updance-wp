@@ -36,6 +36,9 @@
   &__list {
     margin-left: 1rem;
   }
+  &__item{
+    list-style: none;
+  }
   &__item a {
     display: block;
     padding: .7em 1em;
