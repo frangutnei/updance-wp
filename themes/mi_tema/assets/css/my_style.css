@@ -415,6 +415,8 @@ header {
 .btn__updance {
   background-color: #8B0000 !important;
   border-color: #8B0000 !important;
+  display: block;
+  margin: 0 auto;
   color: #fff !important;
 }
 

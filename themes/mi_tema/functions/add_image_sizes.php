@@ -10,8 +10,9 @@
 function dl_image_sizes( $sizes ) {
 
 	$add_sizes = array(
-		'slideshow'		=> __( 'Tamaño del slideshow' ),
-		'custom_logo'	=> __( 'Tamaño personalizado del logo' )
+		'carousel'		=> __( 'Tamaño para imagenes del carousel' ),
+		'noticias'	=> __( 'Tamaño de las fotos de blog noticias' ),
+		'noticias_detalle'	=> __( 'Tamaño de las fotos de blog noticias' )
 	);
 
 	return array_merge( $sizes, $add_sizes );
@@ -30,8 +31,9 @@ function dl_image_sizes( $sizes ) {
  */
 if ( function_exists( 'add_theme_support' ) ) {
 
-	add_image_size( 'slideshow', 800, 600, true );			// Personalización del tamaño del slideshow
-	add_image_size( 'custom_logo', 800, 600, true );		// Personalización del tamaño del logo
+	add_image_size( 'carousel', 460, 400, true );
+	add_image_size( 'noticias', 700, 240, true );
+	add_image_size( 'noticias_detalle', 1100, 450, true );
 
 	add_filter( 'image_size_names_choose', 'dl_image_sizes' );
 
