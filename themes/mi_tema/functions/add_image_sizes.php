@@ -32,7 +32,7 @@ function dl_image_sizes( $sizes ) {
 if ( function_exists( 'add_theme_support' ) ) {
 
 	add_image_size( 'carousel', 460, 400, true );
-	add_image_size( 'noticias', 700, 240, true );
+	add_image_size( 'noticias', 1100, 320, true );
 	add_image_size( 'noticias_detalle', 1100, 450, true );
 
 	add_filter( 'image_size_names_choose', 'dl_image_sizes' );

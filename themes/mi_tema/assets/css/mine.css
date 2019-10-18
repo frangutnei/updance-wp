@@ -809,7 +809,7 @@ header {
   margin-bottom: 3rem;
 }
 .noticia__img {
-  height: 15rem;
+  height: 20rem;
   width: 100%;
   object-fit: cover;
   margin-bottom: 1rem;
@@ -818,23 +818,6 @@ header {
   color: #8B0000;
 }
 
-.sidebar {
-  display: none;
-}
 
-@media (min-width: 768px) {
-  .noticias {
-    width: 70%;
-  }
-
-  .sidebar {
-    display: block;
-    margin-left: 1rem;
-    width: 39%;
-  }
-  .sidebar__titulo {
-    text-align: center;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
