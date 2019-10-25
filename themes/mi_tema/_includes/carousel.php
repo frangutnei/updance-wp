@@ -3,7 +3,7 @@
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<div class="row">
-					<a href="powerperalta.html" class="col-12 p-0 img1"></a>
+					<a href="power-peralta-dance-studio" class="col-12 p-0 img1"></a>
 				</div>
 			</div>
 			<div class="carousel-item">
@@ -76,7 +76,7 @@
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<div class="row">
-					<a href="academia" class="col-4 p-0 img1"></a>
+					<a href="power-peralta-dance-studio" class="col-4 p-0 img1"></a>
 					<a href="#.html" class="col-4 p-0 img2"></a>
 					<a href="#.html" class="col-4 p-0 img3"></a>
 				</div>

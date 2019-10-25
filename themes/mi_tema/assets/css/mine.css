@@ -15,6 +15,22 @@ body * {
   font-family: "Lato", sans-serif;
 }
 
+.error {
+  margin-top: 4rem;
+  text-align: center;
+}
+.error__logo {
+  height: 20rem;
+}
+.error__volver {
+  color: black;
+}
+.error__volver:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 /*
  *
  * La mayoría de los proyectos tienen una carpeta vendors/ que contiene
@@ -77,6 +93,22 @@ body * {
  */
 body * {
   font-family: "Lato", sans-serif;
+}
+
+.error {
+  margin-top: 4rem;
+  text-align: center;
+}
+.error__logo {
+  height: 20rem;
+}
+.error__volver {
+  color: black;
+}
+.error__volver:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 /*
@@ -795,4 +827,4 @@ header {
   color: #8B0000;
 }
 
-/*# sourceMappingURL=my_style.css.map */
+/*# sourceMappingURL=mine.css.map */

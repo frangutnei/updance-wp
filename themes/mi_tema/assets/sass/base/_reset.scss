@@ -1,3 +1,19 @@
 body *{
     font-family: 'Lato', sans-serif;
 }
+
+.error{
+    margin-top: 4rem;
+    text-align: center;
+    &__logo{
+        height: 20rem;
+    }
+    &__volver{
+        color: black;
+        &:hover{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    }
+}
