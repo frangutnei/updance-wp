@@ -7,7 +7,7 @@
 <?php get_template_part('_includes/cajas') ?>
 	
 <div class="academia container">
-	<h1 class="academia__titulo">Power Peralta Dance Studio</h1>    
+	<!-- <h1 class="academia__titulo">Power Peralta Dance Studio</h1>     -->
 	
 	<div class="sedes">
 		<h2 class="sedes_titulo">Sedes</h2>

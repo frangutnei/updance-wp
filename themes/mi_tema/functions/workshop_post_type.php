@@ -1,7 +1,7 @@
 <?php
 
 // Register Custom Post Type
-function Workshop_post_type() {
+function workshop_post_type() {
 
 	$labels = array(
 		'name'                  => _x( 'Workshops', 'Post Type General Name', 'text_domain' ),

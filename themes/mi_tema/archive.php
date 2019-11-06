@@ -5,19 +5,13 @@
 	<ul>
 		<?php while ( have_posts() ) { the_post(); ?>
 		<li>
-			<a href="<?php the_permalink() ?>">
-				<?php the_post_thumbnail() ?>
-				<?php the_title() ?>
-				<time datetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time>
-				<?php the_excerpt() ?>
-			</a>
-		</li>
+					</li>
 		<?php }; ?>
 	</ul>
 
 	<?php } else { ?>
 		<!-- Content -->
-		<p>No hay elementos</p>
+		<p>No hay elementosssssssssss</p>
 	<?php } wp_reset_query(); ?>
 
 	<?php get_sidebar() ?>
