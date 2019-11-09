@@ -1,31 +1,46 @@
 <?php get_header() ?>
 
-  <div class="horario__titulo container">
-    <h1>Power Peralta - Sede Apoquindo</h1>
-    <h2>Horario</h2>
-  </div>
-
-  <div class="container">      
-    <div class="tabla">
-      <h3 class="tabla__profesor">Profesor</h3>
-      <div class="tabla__horario">
-        <p class="tabla__dia">Lunes</p>
-        <div class="tabla__clases">
-          <div class="tabla__clase">
-            <p class="tabla__estilo mb-0">Reggaeton - Intensivo</p>
+<h1 class="horario__titulo">Horarios de las Academias</h1>
+<div class="container tabla__div">
+	<table class="table table-hover tabla">
+		<thead>
+			<tr>
+				<th class="tabla__academia">Academia</th>
+				<th class="tabla__profesor">Profesor(a)</th>
+				<th class="tabla__estilo">Estilo</th>
+				<th class="tabla__horario">Día y hora</th>
+				<th class="tabla__boton"></th>
+			</tr>
+		</thead>
+		<tbody>
+      <?php
+        $arg = array(
+          'post_type'		 => 'horario',
+          'category_name'	 => '',
+          'posts_per_page' => -1,
+          'offset'		 => 0,
+          'paged'			 => $paged
+        );
+      
+        $get_arg = new WP_Query( $arg );
+      
+        while ( $get_arg->have_posts() ) {
+          $get_arg->the_post();
+        ?>     
+          
+        <tr>
+          <td><?php the_field(academia)?></td>
+          <td><?php the_field(profesor)?></td>
+          <td><?php the_field(estilo)?></td>
+          <td><?php the_field(dia_y_hora)?></td>
+          <td>
             <button type="button" class="btn tabla__btn">Reservar</button>
-          </div>
-          <div class="tabla__clase">
-            <p class="tabla__estilo mb-0">Estilo 1 - Nivel</p>
-            <button type="button" class="btn tabla__btn">Reservar</button>
-          </div>
-          <div class="tabla__clase">
-            <p class="tabla__estilo mb-0">Estilo 1 - Nivel</p>
-            <button type="button" class="btn tabla__btn">Reservar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<?php get_footer() ?>
+          </td>
+        </tr>
+      
+        <?php } wp_reset_postdata();
+      ?>
+		</tbody>
+	</table>
+ </div>
+<?php get_footer() ?> 

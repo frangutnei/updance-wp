@@ -1,45 +1,6 @@
 <?php get_header() ?>
 
 <h1 class="container contratar__titulo">Contratar Plan</h1>
-		
-<!-- <div class="container filtrar">
-	<form class="filtrar__region" action="">
-		<select name="" id="" class="form-control">
-			<option value="">Seleccione Región</option>
-			<option value="">Metropolitana</option>
-			<option value="">Arica</option>
-			<option value="">Tarapaca</option>
-			<option value="">Antofagasta</option>
-			<option value="">Atacama</option>
-			<option value="">Coquimbo</option>
-			<option value="">Valparaiso</option>
-			<option value="">O'Higgins</option>
-			<option value="">Maule</option>
-			<option value="">Ñuble</option>
-			<option value="">Biobio</option>
-			<option value="">Araucanía</option>
-			<option value="">Los Ríos</option>
-			<option value="">Los Lagos</option>
-			<option value="">Aysen</option>
-			<option value="">Magallanes</option>
-		</select>
-	</form>
-	<form class="filtrar__academia" action="">
-		<select class="form-control" name="" id="">
-			<option value="">Seleccionar Academia</option>
-			<option value="">Power Peraltas</option>
-			<option value="">Cony Azúa</option>
-			<option value="">Valero</option>
-			<option value="">Rodrigo Díaz</option>
-			<option value="">Wolfpack</option>
-			<option value="">Pulso</option>
-		</select>
-	</form>
-	<form class="filtrar__comuna" action="">
-		<input  class="form-control" type="text" name="comuna" id="comuna" placeholder="Comuna">
-	</form>
-	<button type="button" class="btn filtrar__btn">Buscar</button>
-</div> -->
 
 <div class="contratar__planes container">
 	<div class="row">

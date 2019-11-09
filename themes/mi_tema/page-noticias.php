@@ -22,7 +22,7 @@
     
             
         <div class="noticia">
-            <?php the_post_thumbnail('noticias');?>
+            <?php the_post_thumbnail('noticias', 'class=noticia__img');?>
             <h3 class="noticia__titulo mt-2"><?php the_title() ?></h3>
             <h6 class="noticia__etiquetas"><?php the_tags( '<span class="text-danger">#</span>', ' <span class="text-danger">#</span>', '' ); ?></h6>
             <?php the_excerpt(); ?>

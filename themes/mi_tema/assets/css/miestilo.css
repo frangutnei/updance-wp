@@ -551,64 +551,32 @@ header {
 }
 
 .tabla {
-  margin: 0 auto !important;
-  margin-bottom: 2rem !important;
-  border: 1px solid #dee2e6;
+  margin: 0 auto;
+  width: 62rem;
 }
-.tabla__profesor {
-  font-size: 20px;
-  margin: 0;
-  padding: 1rem;
-}
-.tabla__horario {
-  display: flex;
-}
-.tabla__dia {
-  width: 25% !important;
-  border: 1px solid #dee2e6 !important;
-  margin: 0;
-  font-size: 1.3rem;
-  padding: 1rem;
-  text-align: center !important;
-}
-.tabla__clases {
-  width: 75%;
-}
-.tabla__clase {
-  border: 1px solid #dee2e6 !important;
-  display: flex;
-  align-items: center;
-  padding: 0.5rem;
-}
-.tabla__estilo {
-  width: 70%;
-  padding: 0.5rem;
-  display: flex;
-  align-items: center;
+.tabla__div {
+  overflow: auto;
 }
 .tabla__btn {
-  height: fit-content;
   background-color: #8B0000 !important;
   color: #fff !important;
 }
-
-@media (min-width: 768px) {
-  .tabla {
-    width: 75% !important;
-  }
-  .tabla__dia {
-    width: 15% !important;
-  }
-  .tabla__clases {
-    width: 85%;
-  }
-  .tabla__estilo {
-    width: 85%;
-  }
-  .tabla__btn {
-    width: 15% !important;
-  }
+.tabla__academia {
+  width: 25%;
 }
+.tabla__profesor {
+  width: 16%;
+}
+.tabla__horario {
+  width: 24%;
+}
+.tabla__estilo {
+  width: 23%;
+}
+.tabla__boton {
+  width: 12%;
+}
+
 .login {
   text-align: center;
   font-size: 20px;
@@ -652,7 +620,7 @@ header {
 }
 .sedes_sede {
   text-align: center;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
 }
 
 .sede__img {
@@ -803,4 +771,11 @@ header {
   color: #8B0000;
 }
 
-/*# sourceMappingURL=mystyle.css.map */
+@media (max-width: 768px) {
+  .noticia__img {
+    width: 510px !important;
+    height: 250px !important;
+  }
+}
+
+/*# sourceMappingURL=miestilo.css.map */
