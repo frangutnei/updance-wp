@@ -22,7 +22,7 @@
                 </div>
                 <div class="form-group col-sm-4">
                     <label for="">Asunto</label>
-                    <input type="password" class="form-control formulario__asunto" id="">
+                    <input type="text" class="form-control formulario__asunto" id="">
                 </div>
             </div>
             <div class="form-group">
