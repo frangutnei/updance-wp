@@ -9,7 +9,6 @@
                 
             <p>Ante cualquier consulta no dudes en escribirnos un correo a xxx@xxxx.com o enviarnos un mensaje mediante nuestro formulario de contacto.</p>
         </div>
-        <a href="academia">academias</a>
 
         <form class="formulario container">
             <div class="row">
