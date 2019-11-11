@@ -1,17 +1,16 @@
-.login{
+.registro{
     text-align: center;
     font-size: 20px;
     margin-bottom: 2rem;
 
-    &__logo{
-        height: 15rem;
-        margin-top: 3rem;
+    &__titulo{
+        margin-top: 4rem; 
     }
     &__form{
         margin-top: 2rem;
     }
     &__usuario, &__contraseña{
-        width: 15rem !important; 
+        width: 15rem !important;
         font-size: 20px !important;
         margin: 0 auto;
     }
@@ -25,20 +24,19 @@
 }
 
 @media(min-width:768px){
-    .login{
+    .registro{
         text-align: center;
         font-size: 20px;
         margin-bottom: 2rem;
     
-        &__logo{
-            height: 15rem;
-            margin-top: 3rem;
+        &__titulo{
+            margin-top: 4rem; 
         }
         &__form{
             margin-top: 2rem;
         }
         &__usuario, &__contraseña{
-            width: 30rem !important; 
+            width: 30rem !important;
             font-size: 20px !important;
             margin: 0 auto;
         }

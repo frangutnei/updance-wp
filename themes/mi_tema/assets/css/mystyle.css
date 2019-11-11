@@ -351,14 +351,18 @@ header {
 .cajas {
   display: none;
 }
+.cajas_movil {
+  height: 1rem;
+}
 .cajas_movil__carousel {
+  top: -100px;
   height: 10rem !important;
 }
 .cajas_movil__div {
-  top: 30px;
+  top: 40px;
 }
 .cajas__carousel {
-  height: 10rem;
+  height: 4rem;
 }
 
 .caja {
@@ -370,7 +374,7 @@ header {
   margin: 0 auto;
   padding: 1rem 2rem;
   left: 4.5rem;
-  top: 22px;
+  top: 50px;
   font-size: 25px;
   text-align: center;
 }
@@ -388,6 +392,26 @@ header {
 }
 
 @media (min-width: 768px) {
+  .cajas {
+    display: none;
+  }
+  .cajas__div {
+    width: 100%;
+    height: 7rem;
+    text-align: center;
+    top: 50px;
+  }
+  .cajas_movil__div {
+    margin: 0 auto;
+  }
+
+  .caja {
+    top: -60px;
+    width: 19rem !important;
+    padding: 1rem 3rem;
+  }
+}
+@media (min-width: 1025px) {
   .cajas {
     display: flex;
     height: 4rem;
@@ -459,10 +483,10 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 400px !important;
+  height: 300px !important;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .carousel-control-prev, .carousel-control-next {
     width: 8rem !important;
   }
@@ -602,6 +626,81 @@ header {
   background-color: #6d0303 !important;
 }
 
+@media (min-width: 768px) {
+  .login {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+  .login__logo {
+    height: 15rem;
+    margin-top: 3rem;
+  }
+  .login__form {
+    margin-top: 2rem;
+  }
+  .login__usuario, .login__contraseña {
+    width: 30rem !important;
+    font-size: 20px !important;
+    margin: 0 auto;
+  }
+  .login__btn {
+    background-color: darkred !important;
+    color: white !important;
+  }
+  .login__btn:hover {
+    background-color: #6d0303 !important;
+  }
+}
+.registro {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+.registro__titulo {
+  margin-top: 4rem;
+}
+.registro__form {
+  margin-top: 2rem;
+}
+.registro__usuario, .registro__contraseña {
+  width: 15rem !important;
+  font-size: 20px !important;
+  margin: 0 auto;
+}
+.registro__btn {
+  background-color: darkred !important;
+  color: white !important;
+}
+.registro__btn:hover {
+  background-color: #6d0303 !important;
+}
+
+@media (min-width: 768px) {
+  .registro {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+  .registro__titulo {
+    margin-top: 4rem;
+  }
+  .registro__form {
+    margin-top: 2rem;
+  }
+  .registro__usuario, .registro__contraseña {
+    width: 30rem !important;
+    font-size: 20px !important;
+    margin: 0 auto;
+  }
+  .registro__btn {
+    background-color: darkred !important;
+    color: white !important;
+  }
+  .registro__btn:hover {
+    background-color: #6d0303 !important;
+  }
+}
 .academia {
   padding-top: 1rem;
 }
@@ -777,5 +876,16 @@ header {
     height: 250px !important;
   }
 }
+.academias__titulo {
+  margin-top: 4rem;
+  text-align: center;
+}
+.academias__div {
+  margin: 0 auto;
+}
+.academias__img {
+  width: 20rem;
+  height: 20rem;
+}
 
-/*# sourceMappingURL=miestilo.css.map */
+/*# sourceMappingURL=mystyle.css.map */

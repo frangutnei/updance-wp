@@ -13,7 +13,8 @@ function dl_image_sizes( $sizes ) {
 		'sede'		=> __( 'Tamaño para imagenes de las sedes de las academias' ),
 		'carousel'		=> __( 'Tamaño para imagenes del carousel' ),
 		'noticias'	=> __( 'Tamaño de las fotos de blog noticias' ),
-		'noticias_detalle'	=> __( 'Tamaño de las fotos de blog noticias' )
+		'noticias_detalle'	=> __( 'Tamaño de las fotos de blog noticias' ),
+		'academias' => __('Tamaño de las fotos de pagina de academias')
 	);
 
 	return array_merge( $sizes, $add_sizes );
@@ -34,9 +35,10 @@ if ( function_exists( 'add_theme_support' ) ) {
 
 	add_image_size( 'sede', 240, 240, false );
 	add_image_size( 'carousel', 460, 400, true );
-	add_image_size( 'carousel_movil', 600, 400, true );
+	add_image_size( 'carousel_movil', 450, 300, true );
 	add_image_size( 'noticias', 1100, 320, true );
 	add_image_size( 'noticias_detalle', 1100, 450, true );
+	add_image_size( 'academias', 300, 300, true );
 
 	add_filter( 'image_size_names_choose', 'dl_image_sizes' );
 

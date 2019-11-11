@@ -1,21 +1,32 @@
 <?php get_header() ?>
-	
-<?php if ( have_posts() ) { ?>
-	<?php while ( have_posts() ) { ?>
-		<?php the_post(); ?>		
-		<div class="academia container">
-			<h1 class="academia__titulo"><?php the_title() ?></h1>	
-			<h2 class="sedes_titulo">Sedes</h2>
 
-			<div class="sedes">
+<div class="container academias">
+	<h1 class="academias__titulo">Academias de UPDANCE</h1>
+
+	<div class="academias__academia">
+		<div class="academias__div row">
+		<?php
+			$arg = array(
+				'post_type'		 => 'academia',
+				'category_name'	 => '',
+				'posts_per_page' => -1,
+				'offset'		 => 0,
+				'orderby'			 => 'title',
+				'order' => 'ASC'
+			);
+		
+			$get_arg = new WP_Query( $arg );
+		
+			while ( $get_arg->have_posts() ) {
+				$get_arg->the_post();
+			?>
+
+			<a href="<?php the_permalink(); ?>" class="col-md-4"><?php the_post_thumbnail('academias', array('class' => 'academias__img my-3')); ?></a>
 			
-				
-			</div>
+			
+			<?php } wp_reset_postdata();?>
 		</div>
+	</div>
+</div>
 
-	<?php } ?>
-<?php } else { ?>
-
-<!-- Content -->
-<?php } wp_reset_query(); ?>
 <?php get_footer() ?>

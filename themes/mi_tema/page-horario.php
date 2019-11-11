@@ -19,7 +19,8 @@
           'category_name'	 => '',
           'posts_per_page' => -1,
           'offset'		 => 0,
-          'paged'			 => $paged
+          'orderby'			 => 'title',
+          'order' => 'ASC'
         );
       
         $get_arg = new WP_Query( $arg );

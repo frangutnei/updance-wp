@@ -3,7 +3,8 @@
 		<div class="carousel-inner">
 			<?php $arg = array(
 				'post_type' => 'academia',
-				'posts_per_page' => -1
+				'posts_per_page' => -1,
+				'order' => 'asc',
 			);
 				$get_arg = new WP_Query( $arg );
 				while ( $get_arg->have_posts() ) {

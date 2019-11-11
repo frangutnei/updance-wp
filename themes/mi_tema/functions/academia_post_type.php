@@ -24,7 +24,7 @@ function academia_post_type() {
 		'not_found_in_trash'    => __( 'No encontrado en papelera', 'text_domain' ),
 		'featured_image'        => __( 'Imagen destacada', 'text_domain' ),
 		'set_featured_image'    => __( 'Establecer como imagen destacada', 'text_domain' ),
-		'remove_featured_image' => __( 'Inserta en la academia', 'text_domain' ),
+		'remove_featured_image' => __( 'Eliminar imagen destacada', 'text_domain' ),
 		'use_featured_image'    => __( 'Usar como imagen destacada', 'text_domain' ),
 		'insert_into_item'      => __( 'Insertar en l academia', 'text_domain' ),
 		'uploaded_to_this_item' => __( 'Subido a esta academia', 'text_domain' ),

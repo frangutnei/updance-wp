@@ -1,0 +1,14 @@
+.academias{
+    &__titulo{
+        margin-top: 4rem;
+        text-align: center;
+    }
+    &__div{
+        margin: 0 auto;
+    }
+    &__img{
+        width: 20rem;
+        height: 20rem;
+        // border-radius: 100%;
+    }
+}
