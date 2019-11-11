@@ -14,7 +14,8 @@ function dl_image_sizes( $sizes ) {
 		'carousel'		=> __( 'Tamaño para imagenes del carousel' ),
 		'noticias'	=> __( 'Tamaño de las fotos de blog noticias' ),
 		'noticias_detalle'	=> __( 'Tamaño de las fotos de blog noticias' ),
-		'academias' => __('Tamaño de las fotos de pagina de academias')
+		'academias' => __('Tamaño de las fotos de pagina de academias'),
+		'academias_movil' => __('Tamaño de las fotos de pagina de academias vista de movil')
 	);
 
 	return array_merge( $sizes, $add_sizes );
@@ -38,7 +39,8 @@ if ( function_exists( 'add_theme_support' ) ) {
 	add_image_size( 'carousel_movil', 450, 300, true );
 	add_image_size( 'noticias', 1100, 320, true );
 	add_image_size( 'noticias_detalle', 1100, 450, true );
-	add_image_size( 'academias', 300, 300, true );
+	add_image_size( 'academias', 250, 250, false );
+	// add_image_size( 'academias_movil', 290, 300, true );
 
 	add_filter( 'image_size_names_choose', 'dl_image_sizes' );
 

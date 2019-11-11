@@ -1,14 +1,28 @@
 .academias{
+    display: none;
     &__titulo{
         margin-top: 4rem;
         text-align: center;
     }
     &__div{
-        margin: 0 auto;
+        text-align: center;
+    }
+    &__link{
+        margin: 2rem 0;
     }
     &__img{
-        width: 20rem;
-        height: 20rem;
-        // border-radius: 100%;
+        width: 100%;
+        height: 100%;
     }
+}
+
+@media(min-width:768px){
+    .academias{
+        display: block;
+        
+        &__movil{
+            display: none;
+        }
+    }
+
 }
